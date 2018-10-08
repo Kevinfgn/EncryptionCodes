@@ -1,0 +1,10 @@
+Para correr la parte del algoritmo hibrido se debe tener el archivo llamado "AlgoritmoHibrido.cpp" en el escritorio,
+luego en la terminal correr las las siguientes lineas
+
+sudo apt-get update
+sudo apt-get install libcrypto++-dev libcrypto++-doc libcrypto++-utils
+cd Desktop
+g++ -g3 -ggdb -O0 -Wall -Wextra -Wno-unused -o AesOutput AlgoritmoHibrido.cpp -lcryptopp
+./AesOutput
+
+Con eso ya correra el codigo
